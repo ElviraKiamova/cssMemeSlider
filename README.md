@@ -1,1 +1,1 @@
-# cssMemeSlider
+# cssMemeSlider - rolling-scopes-school warm-up
