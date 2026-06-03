@@ -97,9 +97,7 @@ body {
 }
 
 .slider__caption-text {
-  display: flex;
-  align-items: flex-start;
-  min-height: max(calc(0.625rem + 1rem), calc(3 * 0.875rem * 1.35));
+  display: block;
 }
 
 .slider__caption {
