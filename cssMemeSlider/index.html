@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>meme-slider</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <main class="slider">
+    <input class="slider__radio" type="radio" name="slide" id="slide-1" checked>
+    <input class="slider__radio" type="radio" name="slide" id="slide-2">
+    <input class="slider__radio" type="radio" name="slide" id="slide-3">
+    <input class="slider__radio" type="radio" name="slide" id="slide-4">
+    <input class="slider__radio" type="radio" name="slide" id="slide-5">
+
+    <div class="slider__images">
+      <figure class="slider__slide">
+        <label class="slider__image-link" for="slide-2">
+          <img class="slider__image" src="img/1.jpg" alt="Мем1">
+        </label>
+      </figure>
+      <figure class="slider__slide">
+        <label class="slider__image-link" for="slide-3">
+          <img class="slider__image" src="img/2.jpg" alt="Мем2">
+        </label>
+      </figure>
+      <figure class="slider__slide">
+        <label class="slider__image-link" for="slide-4">
+          <img class="slider__image" src="img/3.jpg" alt="Мем3">
+        </label>
+      </figure>
+      <figure class="slider__slide">
+        <label class="slider__image-link" for="slide-5">
+          <img class="slider__image" src="img/4.jpg" alt="Мем4">
+        </label>
+      </figure>
+      <figure class="slider__slide">
+        <label class="slider__image-link" for="slide-1">
+          <img class="slider__image" src="img/5.jpg" alt="Мем5">
+        </label>
+      </figure>
+    </div>
+
+    <div class="slider__footer">
+      <div class="slider__captions">
+        <p class="slider__caption">
+          <span class="slider__caption-text">When I talk to my daughter</span>
+          <span class="slider__caption-tooltip" lang="ru">Когда я разговариваю с дочерью</span>
+        </p>
+        <p class="slider__caption">
+          <span class="slider__caption-text">We only dreamed of rest</span>
+          <span class="slider__caption-tooltip" lang="ru">Мы только и мечтаем об отдыхе</span>
+        </p>
+        <p class="slider__caption">
+          <span class="slider__caption-text">Tell us about it....</span>
+          <span class="slider__caption-tooltip" lang="ru">Расскажи нам об этом....</span>
+        </p>
+        <p class="slider__caption">
+          <span class="slider__caption-text">This is me at school sberbank when I study languages With</span>
+          <span class="slider__caption-tooltip" lang="ru">Это я в школе Сбер21, когда учу языки C</span>
+        </p>
+        <p class="slider__caption">
+          <span class="slider__caption-text">They say it happens in an ideal world</span>
+          <span class="slider__caption-tooltip" lang="ru">Говорят такое бывает, в идеальном мире</span>
+        </p>
+      </div>
+
+      <nav class="slider__nav" aria-label="Навигация по слайдам">
+        <label class="slider__dot-label" for="slide-1">
+          <span class="slider__dot"></span>
+        </label>
+        <label class="slider__dot-label" for="slide-2">
+          <span class="slider__dot"></span>
+        </label>
+        <label class="slider__dot-label" for="slide-3">
+          <span class="slider__dot"></span>
+        </label>
+        <label class="slider__dot-label" for="slide-4">
+          <span class="slider__dot"></span>
+        </label>
+        <label class="slider__dot-label" for="slide-5">
+          <span class="slider__dot"></span>
+        </label>
+      </nav>
+    </div>
+  </main>
+</body>
+</html>
